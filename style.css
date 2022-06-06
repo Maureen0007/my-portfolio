@@ -1,3 +1,119 @@
 *{
     box-sizing: border-box;
 }
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vh;
+}
+.container{
+    width: max-content;
+    height: max-content;
+    background-color: rgb(201, 193, 193);
+    margin-left: 15%;
+    border-radius: 15px;
+    box-shadow: 6px 6px 5px black;
+}
+/* navigation bar */
+#navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+
+   
+}
+#navigation h1{
+    color: #FF7227;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 70px;
+}
+ul{
+    box-sizing: border-box;
+    width: 700px;
+
+    
+}
+.links li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    padding: 40px;
+    float: right;
+    color: black;
+    margin-top: 30px;
+    
+    
+
+}
+a:hover{
+    color: #FF7227;
+}
+#navbutton{
+    background-color: #FF7227;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+/* hero section */
+#hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    margin-top: 5%;
+    
+}
+.herotext{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 12%;
+    margin-top: 60px;
+}
+.resumebtn{
+    background-color: #FF7227;
+    height: 40px;
+    width: 150px;
+    margin: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.heroimage img{
+    border-bottom-right-radius: 15px;
+}
+/* about section */
+#about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+.abouttext{
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.abouttext h2{
+    color: #FF7227;
+}
+/* languages */
+#languages{
+    margin-top: 5%;
+}
+.title h2{
+    color: #FF7227;
+    font-size: 40px;
+    margin-left: 30%;
+}
+.icons {
+    margin-left: 50px;
+}
+.icons i{
+    padding: 50px;
+    font-size: 100px;
+}
+/* reach me */
